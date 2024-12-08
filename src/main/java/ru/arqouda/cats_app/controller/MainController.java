@@ -34,10 +34,10 @@ public class MainController {
         log.info(
                 "New row: " + catRepo.save(
                         Cat.builder()
-                            .age(catDTO.getAge())
-                            .weight(catDTO.getWeight())
-                            .name(catDTO.getName())
-                            .build())
+                                .age(catDTO.getAge())
+                                .weight(catDTO.getWeight())
+                                .name(catDTO.getName())
+                                .build())
         );
     }
 
